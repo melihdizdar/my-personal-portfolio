@@ -3,6 +3,7 @@ import SocialLinks from "./components/SocialLinks";
 import Introduction from "./components/Introduction";
 import Resume from "./components/Resume";
 import Skills from "./components/Skills";
+import Projects from "./components/Projects";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
         <Introduction/>
         <Resume/>
         <Skills/>
+        <Projects/>
       </main>
     </>
   );
