@@ -2,6 +2,7 @@ import Navbar from "./components/Navbar";
 import SocialLinks from "./components/SocialLinks";
 import Introduction from "./components/Introduction";
 import Resume from "./components/Resume";
+import Skills from "./components/Skills";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
         <SocialLinks/>
         <Introduction/>
         <Resume/>
+        <Skills/>
       </main>
     </>
   );
