@@ -2,18 +2,32 @@
 import React, { useEffect, useRef } from 'react';
 import IntroImg from "../assets/intro.png";
 import { init } from 'ityped';
+import Lottie from 'react-lottie';
+import animationData from '../lotties/coding.json';
 
 export default function Introduction() {
     const textRef = useRef();
     useEffect(() => {
         init(textRef.current, { showCursor: false, strings: ['Developer'], typeSpeed: 100,});
     }, []);
+    const defaultOptions = {
+            loop: true,
+            autoplay: true,
+            animationData: animationData,
+            rendererSettings: {
+            preserveAspectRatio: "xMidYMid slice"
+        }
+    };
     return (
         <section id="intro" data-uk-height-viewport="offset-top:true;">
             <div className="uk-container">
                 <div className="uk-grid-medium uk-flex-middle" data-uk-grid data-uk-height-viewport="offset-top:true;">
                     <div className="uk-width-1-2@m" data-uk-scrollspy="cls: uk-animation-fade; delay:300;">
-                        <img src={IntroImg} data-uk-img className="uk-width-1-1" alt="IntroImg"/>
+                        <Lottie 
+                            options={defaultOptions}
+                            height={400}
+                            width={400}
+                        />
                     </div>
                     <div className="uk-width-1-2@m uk-text-center" data-uk-scrollspy="cls: uk-animation-fade; delay:300;">
                         <h3 className="uk-margin-small-medium">Hi There, I am</h3>
