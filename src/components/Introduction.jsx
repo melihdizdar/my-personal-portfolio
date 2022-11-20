@@ -21,18 +21,18 @@ export default function Introduction() {
     return (
         <section id="intro" data-uk-height-viewport="offset-top:true;">
             <div className="uk-container">
-                <div className="uk-grid-medium uk-flex-middle" data-uk-grid data-uk-height-viewport="offset-top:true;">
-                    <div className="uk-width-1-2@m" data-uk-scrollspy="cls: uk-animation-fade; delay:300;">
-                        <Lottie 
-                            options={defaultOptions}
-                            height={400}
-                            width={400}
-                        />
+                <div className="uk-grid-collapse uk-flex-middle" data-uk-grid data-uk-height-viewport="offset-top:true;">
+                    <div className="uk-width-1-2@m uk-flex uk-flex-center" data-uk-scrollspy="cls: uk-animation-fade; delay:300;">
+                        <div className='lottie'>
+                            <Lottie 
+                                options={defaultOptions}
+                            />
+                        </div>
                     </div>
                     <div className="uk-width-1-2@m uk-text-center" data-uk-scrollspy="cls: uk-animation-fade; delay:300;">
-                        <h3 className="uk-margin-small-medium">Hi There, I am</h3>
-                        <h1 className="uk-margin-small-medium uk-margin-remove-top uk-text-bold text-blue">Melih Dizdar</h1>
-                        <div className="uk-margin-small-medium uk-margin-remove-top uk-h2 uk-text-bold">
+                        <div className="uk-h3">Hi There, I am</div>
+                        <div className="uk-h1 uk-margin-remove-top uk-text-bold text-blue">Melih Dizdar</div>
+                        <div className="uk-margin-remove-top uk-h2 uk-text-bold">
                             <span>Front-End </span><span className="uk-h2 uk-text-bold text-blue" ref={textRef}></span>
                         </div>
                         <div className="text-center" data-uk-scrollspy="cls: uk-animation-fade; delay:300;">

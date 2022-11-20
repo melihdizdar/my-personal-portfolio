@@ -2448,7 +2448,7 @@ select.uk-form-width-xsmall {
   background-color: #031321;
 }
 .social-icon {
-  width: 60px;
+  width: 50px;
   background: #122e52;
 }
 .text-blue {
@@ -2575,6 +2575,16 @@ select.uk-form-width-xsmall {
 .timeline ul li:hover:before {
   background-color: #fff;
   box-shadow: 0px 0px 10px 2px #fff;
+}
+.lottie {
+  width: 300px;
+  height: 300px;
+}
+@media (min-width: 960px) {
+  .lottie {
+    width: 400px;
+    height: 400px;
+  }
 }
 @media (min-width: 960px) {
   .card-bottom {
