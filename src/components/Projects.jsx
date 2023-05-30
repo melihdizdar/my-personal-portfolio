@@ -31,14 +31,14 @@ export default function Projects() {
                             <div data-uk-slider="finite:true;">
                                 <div className="uk-position-relative" tabIndex="-1">
                                     <div className="uk-slider-container">
-                                        <ul className="uk-slider-items uk-child-width-1-1 uk-child-width-1-2@s uk-child-width-1-3@m uk-child-width-1-4@l uk-grid-medium" data-uk-grid>
+                                        <ul className="uk-slider-items uk-child-width-1-1 uk-child-width-1-2@s uk-child-width-1-3@m uk-child-width-1-4@l" data-uk-grid>
                                             {frontProjectsData.map((frontCard) => (
                                             <FrontProjectsCards key={frontCard._id} frontCard={frontCard}></FrontProjectsCards>
                                             ))}
                                         </ul>
                                     </div>
-                                    <div className="uk-position-bottom-center uk-position-small uk-hidden@s">
-                                        <ul className="uk-slider-nav uk-dotnav uk-flex-center uk-margin"></ul>
+                                    <div className="uk-position-bottom-center uk-position-small uk-hidden">
+                                        <ul className="uk-slider-nav uk-dotnav uk-flex-center uk-margin" data-uk-grid></ul>
                                     </div>
                                     <div className="uk-visible@m uk-light">
                                         <a className="uk-position-center-left-out  uk-position-small" href="#" data-uk-slidenav-previous data-uk-slider-item="previous"></a>
@@ -51,13 +51,13 @@ export default function Projects() {
                             <div data-uk-slider="finite:true;">
                                 <div className="uk-position-relative" tabIndex="-1">
                                     <div className="uk-slider-container">
-                                        <ul className="uk-slider-items uk-child-width-1-1 uk-child-width-1-2@s uk-child-width-1-3@m uk-child-width-1-4@l uk-grid-medium" data-uk-grid>
+                                        <ul className="uk-slider-items uk-child-width-1-1 uk-child-width-1-2@s uk-child-width-1-3@m uk-child-width-1-4@l" data-uk-grid>
                                             {fullProjectsData.map((fstackCard) => (
                                             <FStackProjectsCards key={fstackCard._id} fstackCard={fstackCard}></FStackProjectsCards>
                                             ))}
                                         </ul>
                                     </div>
-                                    <div className="uk-position-bottom-center uk-position-small uk-hidden@s">
+                                    <div className="uk-position-bottom-center uk-position-small uk-hidden">
                                         <ul className="uk-slider-nav uk-dotnav uk-flex-center uk-margin"></ul>
                                     </div>
                                     <div className="uk-visible@m uk-light">

@@ -21,49 +21,54 @@ export default function Skills() {
                             <div>
                                 <div className="uk-background-primary uk-tile uk-tile-small">
                                     <div>Markup Language</div>
-                                    <div>
-                                        <span data-uk-icon="icon:html;" className="uk-preserve" uk-tooltip="title: HTML; pos: bottom"></span>
-                                        <span data-uk-icon="icon:css;" className="uk-preserve" uk-tooltip="title: CSS; pos: bottom"></span>
-                                        <span data-uk-icon="icon:sass;" className="uk-preserve" uk-tooltip="title: SASS; pos: bottom"></span>
+                                    <div className='uk-margin-small-top uk-flex uk-flex-center uk-flex-middle' style={{gap:'15px',}}>
+                                        <div data-uk-icon="icon:html;" className="uk-preserve" uk-tooltip="title: HTML; pos: bottom"></div>
+                                        <div data-uk-icon="icon:css;" className="uk-preserve" uk-tooltip="title: CSS; pos: bottom"></div>
+                                        <div data-uk-icon="icon:sass;" className="uk-preserve" uk-tooltip="title: SASS; pos: bottom"></div>
                                     </div>
                                 </div>
                                 <div className="uk-background-muted uk-tile uk-tile-small">
                                     <div>Software Language</div>
-                                    <div>
-                                        <span data-uk-icon="icon:javascript;" className="uk-preserve" uk-tooltip="title: JavaScript; pos: bottom"></span>
+                                    <div className='uk-margin-small-top uk-flex uk-flex-center uk-flex-middle' style={{gap:'15px',}}>
+                                        <div data-uk-icon="icon:javascript;" className="uk-preserve" uk-tooltip="title: JavaScript; pos: bottom"></div>
                                     </div>
                                 </div>
                             </div>
                             <div>
                                 <div className="uk-background-primary uk-tile uk-tile-small">
                                     <div>UI Framework</div>
-                                    <div>
-                                        <span data-uk-icon="icon:bootstrap;" className="uk-preserve" uk-tooltip="title: Bootstrap; pos: bottom"></span>
-                                        <span data-uk-icon="icon:uikitt;" className="uk-preserve" uk-tooltip="title: UIKit; pos: bottom"></span>
+                                    <div className='uk-margin-small-top uk-flex uk-flex-center uk-flex-middle' style={{gap:'15px',}}>
+                                        <div data-uk-icon="icon:tailwind;" className="uk-preserve" uk-tooltip="title: Tailwind; pos: bottom"></div>
+                                        <div data-uk-icon="icon:uikitt;" className="uk-preserve" uk-tooltip="title: UIKit; pos: bottom"></div>
+                                        <div data-uk-icon="icon:bootstrap;" className="uk-preserve" uk-tooltip="title: Bootstrap; pos: bottom"></div>
+                                        <div data-uk-icon="icon:prime;ratio:0.015;" className="uk-preserve" uk-tooltip="title: Prime React; pos: bottom"></div>
                                     </div>
                                 </div>
                                 <div className="uk-background-muted uk-tile uk-tile-small">
                                     <div>JS Framework</div>
-                                    <div>
-                                        <span data-uk-icon="icon:react;" className="uk-preserve" uk-tooltip="title: React; pos: bottom"></span>
+                                    <div className='uk-margin-small-top uk-flex uk-flex-center uk-flex-middle' style={{gap:'15px',}}>
+                                        <div data-uk-icon="icon:react;" className="uk-preserve" uk-tooltip="title: React; pos: bottom"></div>
+                                        <div data-uk-icon="icon:next;ratio:0.06;" className="uk-preserve" uk-tooltip="title: Next.js; pos: bottom"></div>
+                                        <div data-uk-icon="icon:redux;ratio:0.015;" className="uk-preserve" uk-tooltip="title: React Redux; pos: bottom"></div>
+                                        <div data-uk-icon="icon:jquery;ratio:0.4" className="uk-preserve" uk-tooltip="title: Jquery; pos: bottom"></div>
                                     </div>
                                 </div>
                             </div>
                             <div>
                                 <div className="uk-background-primary uk-tile uk-tile-small">
                                     <div>Version Control</div>
-                                    <div>
-                                        <span data-uk-icon="icon:git;" className="uk-preserve" uk-tooltip="title: Git; pos: bottom"></span>
-                                        <span data-uk-icon="icon:githubb;" className="uk-preserve" uk-tooltip="title: GitHub; pos: bottom"></span>
+                                    <div className='uk-margin-small-top uk-flex uk-flex-center uk-flex-middle' style={{gap:'15px',}}>
+                                        <div data-uk-icon="icon:git;" className="uk-preserve" uk-tooltip="title: Git; pos: bottom"></div>
+                                        <div data-uk-icon="icon:githubb;" className="uk-preserve" uk-tooltip="title: GitHub; pos: bottom"></div>
                                     </div>
                                 </div>
                             </div>
                             <div>
                                 <div className="uk-background-muted uk-tile uk-tile-small">
                                     <div>Code Editor</div>
-                                    <div>
-                                        <span data-uk-icon="icon:vscode;" className="uk-preserve" uk-tooltip="title: Visual Studio Code; pos: bottom"></span>
-                                        <span data-uk-icon="icon:vs;" className="uk-preserve" uk-tooltip="title: Visual Studio; pos: bottom"></span>
+                                    <div className='uk-margin-small-top uk-flex uk-flex-center uk-flex-middle' style={{gap:'15px',}}>
+                                        <div data-uk-icon="icon:vscode;" className="uk-preserve" uk-tooltip="title: Visual Studio Code; pos: bottom"></div>
+                                        <div data-uk-icon="icon:vs;" className="uk-preserve" uk-tooltip="title: Visual Studio; pos: bottom"></div>
                                     </div>
                                 </div>
                             </div>
@@ -79,49 +84,54 @@ export default function Skills() {
                             <div>
                                 <div className="uk-background-primary uk-tile uk-tile-small">
                                     <div>Markup Language</div>
-                                    <div>
-                                        <span data-uk-icon="icon:html;" className="uk-preserve" uk-tooltip="title: HTML; pos: bottom"></span>
-                                        <span data-uk-icon="icon:css;" className="uk-preserve" uk-tooltip="title: CSS; pos: bottom"></span>
-                                        <span data-uk-icon="icon:sass;" className="uk-preserve" uk-tooltip="title: SASS; pos: bottom"></span>
+                                    <div className='uk-margin-small-top uk-flex uk-flex-center uk-flex-middle' style={{gap:'15px',}}>
+                                        <div data-uk-icon="icon:html;" className="uk-preserve" uk-tooltip="title: HTML; pos: bottom"></div>
+                                        <div data-uk-icon="icon:css;" className="uk-preserve" uk-tooltip="title: CSS; pos: bottom"></div>
+                                        <div data-uk-icon="icon:sass;" className="uk-preserve" uk-tooltip="title: SASS; pos: bottom"></div>
                                     </div>
                                 </div>
                                 <div className="uk-background-muted uk-tile uk-tile-small">
                                     <div>UI Framework</div>
-                                    <div>
-                                        <span data-uk-icon="icon:bootstrap;" className="uk-preserve" uk-tooltip="title: Bootstrap; pos: bottom"></span>
-                                        <span data-uk-icon="icon:uikitt;" className="uk-preserve" uk-tooltip="title: UIKit; pos: bottom"></span>
+                                    <div className='uk-margin-small-top uk-flex uk-flex-center uk-flex-middle' style={{gap:'15px',}}>
+                                        <div data-uk-icon="icon:tailwind;" className="uk-preserve" uk-tooltip="title: Tailwind; pos: bottom"></div>
+                                        <div data-uk-icon="icon:uikitt;" className="uk-preserve" uk-tooltip="title: UIKit; pos: bottom"></div>
+                                        <div data-uk-icon="icon:bootstrap;" className="uk-preserve" uk-tooltip="title: Bootstrap; pos: bottom"></div>
+                                        <div data-uk-icon="icon:prime;ratio:0.015;" className="uk-preserve" uk-tooltip="title: Prime React; pos: bottom"></div>
                                     </div>
                                 </div>
                             </div>
                             <div>
                                 <div className="uk-background-muted uk-tile uk-tile-small">
                                     <div>Software Language</div>
-                                    <div>
-                                        <span data-uk-icon="icon:javascript;" className="uk-preserve" uk-tooltip="title: JavaScript; pos: bottom"></span>
+                                    <div className='uk-margin-small-top uk-flex uk-flex-center uk-flex-middle' style={{gap:'15px',}}>
+                                        <div data-uk-icon="icon:javascript;" className="uk-preserve" uk-tooltip="title: JavaScript; pos: bottom"></div>
                                     </div>
                                 </div>
                                 <div className="uk-background-primary uk-tile uk-tile-small">
                                     <div>JS Framework</div>
-                                    <div>
-                                        <span data-uk-icon="icon:react;" className="uk-preserve" uk-tooltip="title: React; pos: bottom"></span>
+                                    <div className='uk-margin-small-top uk-flex uk-flex-center uk-flex-middle' style={{gap:'15px',}}>
+                                        <div data-uk-icon="icon:react;" className="uk-preserve" uk-tooltip="title: React; pos: bottom"></div>
+                                        <div data-uk-icon="icon:next;ratio:0.06;" className="uk-preserve" uk-tooltip="title: Next.js; pos: bottom"></div>
+                                        <div data-uk-icon="icon:redux;ratio:0.015;" className="uk-preserve" uk-tooltip="title: React Redux; pos: bottom"></div>
+                                        <div data-uk-icon="icon:jquery;ratio:0.4" className="uk-preserve" uk-tooltip="title: Jquery; pos: bottom"></div>
                                     </div>
                                 </div>
                             </div>
                             <div>
                                 <div className="uk-background-primary uk-tile uk-tile-small">
                                     <div>Version Control</div>
-                                    <div>
-                                        <span data-uk-icon="icon:git;" className="uk-preserve" uk-tooltip="title: Git; pos: bottom"></span>
-                                        <span data-uk-icon="icon:githubb;" className="uk-preserve" uk-tooltip="title: GitHub; pos: bottom"></span>
+                                    <div className='uk-margin-small-top uk-flex uk-flex-center uk-flex-middle' style={{gap:'15px',}}>
+                                        <div data-uk-icon="icon:git;" className="uk-preserve" uk-tooltip="title: Git; pos: bottom"></div>
+                                        <div data-uk-icon="icon:githubb;" className="uk-preserve" uk-tooltip="title: GitHub; pos: bottom"></div>
                                     </div>
                                 </div>
                             </div>
                             <div>
                                 <div className="uk-background-muted uk-tile uk-tile-small">
                                     <div>Code Editor</div>
-                                    <div>
-                                        <span data-uk-icon="icon:vscode;" className="uk-preserve" uk-tooltip="title: Visual Studio Code; pos: bottom"></span>
-                                        <span data-uk-icon="icon:vs;" className="uk-preserve" uk-tooltip="title: Visual Studio; pos: bottom"></span>
+                                    <div className='uk-margin-small-top uk-flex uk-flex-center uk-flex-middle' style={{gap:'15px',}}>
+                                        <div data-uk-icon="icon:vscode;" className="uk-preserve" uk-tooltip="title: Visual Studio Code; pos: bottom"></div>
+                                        <div data-uk-icon="icon:vs;" className="uk-preserve" uk-tooltip="title: Visual Studio; pos: bottom"></div>
                                     </div>
                                 </div>
                             </div>

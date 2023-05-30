@@ -13,7 +13,7 @@ export default function FrontProjectsCards(props) {
                     </div>
                     <div className="uk-position-bottom card-bottom">
                         <div className="neon-button uk-flex uk-flex-center">
-                            <a href={frontCard.link}>
+                            <a href={frontCard.link} target='_blank' rel="noreferrer">
                                 <span></span>
                                 <span></span>
                                 <span></span>
