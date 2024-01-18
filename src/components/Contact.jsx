@@ -1,17 +1,23 @@
 /* eslint-disable jsx-a11y/anchor-has-content */
 /* eslint-disable jsx-a11y/anchor-is-valid */
-import React, { useRef } from 'react';
+import React, { useRef, useState } from 'react';
 import emailjs from '@emailjs/browser';
+import { useForm } from 'react-hook-form';
 
 export default function Contact() {
     const form = useRef();
+    const { register, handleSubmit, formState: { errors } } = useForm();
+    const [isFormSend, setIsFormSend] = useState(false)
     const sendEmail = (e) => {
+        setIsFormSend(true);
         e.preventDefault();
         emailjs.sendForm('service_ir6g7oq', 'template_35w7158', form.current, 'user_qTijygrCJ9GOl8U9kgvzs')
         .then((result) => {
             console.log(result.text);
+            setIsFormSend(false);
         }, (error) => {
             console.log(error.text);
+            setIsFormSend(false);
         });
         e.target.reset();
         alert("Your message has ben successfully sent!");
@@ -24,31 +30,35 @@ export default function Contact() {
                         <div className="uk-text-large uk-margin-small-top uk-margin-small-bottom uk-text-bold uk-text-large">Contact</div>
                     </div>
                 </div>
-                <form className="uk-grid-small uk-width-1-4@m uk-margin-auto uk-flex-center uk-flex-middle" data-uk-grid ref={form} onSubmit={sendEmail}>
+                <form className="uk-grid-small uk-width-1-4@m uk-margin-auto uk-flex-center uk-flex-middle" data-uk-grid ref={form} onSubmit={handleSubmit(sendEmail)}>
                     <div className="uk-width-1-1 uk-padding-small uk-padding-remove-right@m">
                         <label className="uk-form-label" htmlFor="flname">Name & Surname</label>
                         <div className="uk-inline uk-width-1-1">
                             <span className="uk-form-icon" data-uk-icon="icon: user"></span>
-                            <input className="uk-input" type="text" placeholder="enter your full name" id="flname" name="flname" autoComplete="off" required/>
+                            <input className="uk-input" type="text" placeholder="enter your full name" id="flname" name="flname" autoComplete="off" {...register("flname", { required: true })}/>
                         </div>
+                        {errors.flname && <div className="uk-text-danger uk-margin-small-top">This field is required.</div>}
                     </div>
                     <div className="uk-width-1-1 uk-padding-small uk-padding-remove-right@m">
                         <label className="uk-form-label" htmlFor="email">Email</label>
                         <div className="uk-inline uk-width-1-1">
                             <span className="uk-form-icon" data-uk-icon="icon: mail"></span>
-                            <input className="uk-input" type="email" placeholder="enter your email address" id="email" name="email" autoComplete="off" required/>
+                            <input className="uk-input" type="email" placeholder="enter your email address" id="email" name="email" autoComplete="off" {...register("email", { required: true })}/>
                         </div>
+                        {errors.email && <div className="uk-text-danger uk-margin-small-top">This field is required.</div>}
                     </div>
                     <div className="uk-width-1-1 uk-padding-small uk-padding-remove-right@m">
                         <label className="uk-form-label" htmlFor="subject">Subject</label>
                         <div className="uk-inline uk-width-1-1">
                             <span className="uk-form-icon" data-uk-icon="icon: quote-right"></span>
-                            <input className="uk-input" type="text" placeholder="enter your subject" id="subject" name="subject" autoComplete="off" required/>
+                            <input className="uk-input" type="text" placeholder="enter your subject" id="subject" name="subject" autoComplete="off" {...register("subject", { required: true })}/>
                         </div>
+                        {errors.subject && <div className="uk-text-danger uk-margin-small-top">This field is required.</div>}
                     </div>
                     <div className="uk-width-1-1 uk-padding-small uk-padding-remove-right@m">
                         <label className="uk-form-label" htmlFor="message">Message</label>
-                        <textarea className="uk-textarea resize-none" rows="3" placeholder="enter your message" id="message" name="message" autoComplete="off" required></textarea>
+                        <textarea className="uk-textarea resize-none" rows="3" placeholder="enter your message" id="message" name="message" autoComplete="off" {...register("message", { required: true })}></textarea>
+                        {errors.message && <div className="uk-text-danger uk-margin-small-top">This field is required.</div>}
                     </div>
                     <div className="uk-width-1-1 uk-flex uk-flex-center uk-padding uk-padding-remove-horizontal">
                         <button className="neon-button button-reset" type="submit">

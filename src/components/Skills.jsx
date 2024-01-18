@@ -49,7 +49,7 @@ export default function Skills() {
                                     <div className='uk-margin-small-top uk-flex uk-flex-center uk-flex-middle' style={{gap:'15px',}}>
                                         <div data-uk-icon="icon:react;" className="uk-preserve" uk-tooltip="title: React; pos: bottom"></div>
                                         <div data-uk-icon="icon:next;ratio:0.06;" className="uk-preserve" uk-tooltip="title: Next.js; pos: bottom"></div>
-                                        <div data-uk-icon="icon:redux;ratio:0.015;" className="uk-preserve" uk-tooltip="title: React Redux; pos: bottom"></div>
+                                        <div data-uk-icon="icon:redux;ratio:0.015;" className="uk-preserve" uk-tooltip="title: React Redux,Redux ToolKit, Context; pos: bottom"></div>
                                         <div data-uk-icon="icon:jquery;ratio:0.4" className="uk-preserve" uk-tooltip="title: Jquery; pos: bottom"></div>
                                     </div>
                                 </div>
@@ -112,7 +112,7 @@ export default function Skills() {
                                     <div className='uk-margin-small-top uk-flex uk-flex-center uk-flex-middle' style={{gap:'15px',}}>
                                         <div data-uk-icon="icon:react;" className="uk-preserve" uk-tooltip="title: React; pos: bottom"></div>
                                         <div data-uk-icon="icon:next;ratio:0.06;" className="uk-preserve" uk-tooltip="title: Next.js; pos: bottom"></div>
-                                        <div data-uk-icon="icon:redux;ratio:0.015;" className="uk-preserve" uk-tooltip="title: React Redux; pos: bottom"></div>
+                                        <div data-uk-icon="icon:redux;ratio:0.015;" className="uk-preserve" uk-tooltip="title: React Redux,Redux ToolKit, Context; pos: bottom"></div>
                                         <div data-uk-icon="icon:jquery;ratio:0.4" className="uk-preserve" uk-tooltip="title: Jquery; pos: bottom"></div>
                                     </div>
                                 </div>
@@ -135,15 +135,6 @@ export default function Skills() {
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div className="uk-section">
-                <div className="uk-container">
-                    <div className="uk-flex-center uk-width-1-2 uk-margin-auto uk-grid-collapse" data-uk-grid>
-                        <div className="uk-width-1-1 uk-text-center uk-text-large uk-text-uppercase" data-uk-scrollspy="cls: uk-animation-fade; delay:300;">
-                            <a data-uk-icon="chevron-down" href="#projects" className="uk-dark" data-uk-scroll="offset:70"></a>
                         </div>
                     </div>
                 </div>
